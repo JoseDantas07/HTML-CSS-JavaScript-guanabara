@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos para ver a imagem muda</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="src/img/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="src/img/imagemM.png" type="image/png">
+        <img src="src/img/imagemG.png" alt="imagem grande">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <audio controls preload="metadata">
+        <source src="src/midia/happy-mistake.mp3" type="audio/mpeg">
+        <p>seu navegador não e compativel com audios</p>
+    </audio>
+
+</body>
+</html>
