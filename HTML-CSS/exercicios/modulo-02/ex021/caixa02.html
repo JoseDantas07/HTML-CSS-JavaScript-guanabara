@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav > a{
+            color: black;
+            background-color: lightgray;
+            text-decoration: none;
+            padding: 5px;
+            margin-right: 7px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.404);
+        }
+        nav > a:hover{
+            background-color: gray;
+            color: white;
+        }
+        section{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        article{
+            background-color: darkgray;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a> 
+            <a href="#">Sobre</a> 
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, adipisci! Officia perferendis quod aliquam expedita, hic voluptas ratione, sequi dicta laboriosam deleniti accusantium natus harum obcaecati iure doloribus nesciunt quam!</p>
+                <picture>
+                    <source media="(max-width: 790px)" srcset="img/paisagem-p.png" type="image/png">
+                    <source media="(max-width: 1250px)" srcset="img/paisagem-m.png" type="image/png">
+                    <img src="img/paisagem-g.png" alt="paisagem grande">
+                </picture>
+                <aside> 
+                    <p>Artigo Desenvolvido por jose</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Jose</p>
+    </footer>
+</body>
+</html>
