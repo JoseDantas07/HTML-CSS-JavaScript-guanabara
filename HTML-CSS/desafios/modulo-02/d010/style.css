@@ -1,0 +1,120 @@
+@font-face {
+    font-family: android;
+    src: url(src/fonts/idroid.otf);
+}
+
+
+.fonte-android{
+    font-family: android;
+}
+h1,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(142, 255, 198);
+}
+
+header{
+    background-image: linear-gradient(rgba(11, 212, 11, 0.726), rgb(3, 75, 3));
+    color: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.658);
+}
+header h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.671);
+    margin-top: 0px;
+    padding-top: 15px;
+}
+header h1,p{
+    text-align: center;
+}
+
+nav{
+    display: inline-block;
+    border-radius: 12px;
+    margin-right: 4px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+nav:hover {
+    background-color: green;
+}
+nav {
+    color: white;
+    
+}
+
+section{
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    max-width: 70%;
+    
+    box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.603);
+}
+section h1{
+    color: rgb(2, 61, 2);
+    margin-top: 0px;
+}
+section p{
+    text-align: justify;
+    text-indent: 15px;
+}
+section h2{
+    color: rgb(2, 59, 2);
+    background-color: rgba(121, 231, 121, 0.425);
+}
+
+.imgem-centralizada{
+    display: block;
+    margin: auto;
+}
+
+.video{
+    background-color: green;    
+}
+.video iframe{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagina-extra{
+    background-color: rgb(113, 212, 146);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    
+}
+.pagina-extra p{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+ #cabecalho-da-pagina-extra{
+    background-color: rgba(35, 145, 49, 0.788);
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.lista-da-pagina-extra{
+    display: inline-block;
+    margin: auto;
+    text-decoration: underline;
+}
+.lista-da-pagina-extra li::before {
+    content: "✓";
+}
+
+.links{
+    text-decoration: none;
+    color: green;
+}
+
+footer p{
+    background-color: green;
+    margin-bottom: 0px;
+    padding: 3px;
+}
